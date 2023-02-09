@@ -13,4 +13,4 @@ Transformação dos dados:
 -> O dbt exige um repositório para ele, portanto, para encontrar os códigos do dbt devemos olhar no repositório dbt-data-stack
 -> O que o dbt faz? Ele pega os dados que estão no banco e trabalhar modelos a partir dessas tabelas de origem (criar um modelo/dataset)
 -> Modelo dbt: São as queries em que fazemos as agregações e cálculos que desejamos
--> Criamos um repositório só para o dbt (nome do repositório: dbt-data-stack)
+-> Criamos um repositório só para o dbt (nome do repositório: dbt-data-stack). Esse repositório é privado por conta dos arquivos de comexão com o banco de dados
