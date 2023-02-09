@@ -9,3 +9,4 @@ Utilizaremos o airbyte para fazer o processo de carga, o dbt para fazer as trans
 Transformação dos dados:
 
 -> A transformação dos dados será feita através da ferramenta dbt
+-> Criaremos uma tabela agregada com os dados que queremos utilizar para montar o dashboard/ fazer nossas análises
