@@ -14,3 +14,13 @@ Transformação dos dados:
 -> O que o dbt faz? Ele pega os dados que estão no banco e trabalhar modelos a partir dessas tabelas de origem (criar um modelo/dataset)
 -> Modelo dbt: São as queries em que fazemos as agregações e cálculos que desejamos
 -> Criamos um repositório só para o dbt (nome do repositório: dbt-data-stack). Esse repositório é privado por conta dos arquivos de comexão com o banco de dados
+
+
+Criando rede dos containers:
+
+É importante criar essa rede para que os containers se enxerguem e conversem entre si
+
+docker network ls (criando rede de containers)
+docker network create modern-data-stack (criando uma nova rede)
+docker network inspect modern-data-stack(comando para verificar o que temos na rede)
+docker network connect modern-data-stack airbyte-proxy (adicionando um container na rede modern-data-stack)
